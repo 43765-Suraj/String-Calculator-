@@ -7,20 +7,21 @@ public class StringCalculatorShould {
 
     @Test
     public void empty_string_should_return_0() throws Exception {
-        StringCalculator stringCalculator = new StringCalculator();   // An Empty String return Zero
+        StringCalculator stringCalculator = new StringCalculator();  
+        // An Empty String return Zero
         assertEquals(0, stringCalculator.add(""));
     }
 
     @Test
     public void string_with_single_number_should_return_number_as_int() throws Exception {
-    	// Single number return the value
     	StringCalculator stringCalculator = new StringCalculator();   
+    	// Single number return the value
         assertEquals(1, stringCalculator.add("1"));
     }
     @Test
     public void twoNumbersCommaDeliminatedReturnSum() throws Exception {   
-    	// Two numbers comma deliminated ,return the sum
     	  StringCalculator stringCalculator = new StringCalculator(); 
+    	// Two numbers comma deliminated ,return the sum
           assertEquals(3, stringCalculator.add("1,2"));
     }
     @Test
@@ -31,20 +32,21 @@ public class StringCalculatorShould {
     }
     @Test
     public void threeNumbersDeliminatedBothWaysReturnSum() throws Exception {
-    	//Three numbers deliminated either way,return the sum
     	 StringCalculator stringCalculator = new StringCalculator(); 
+    	    	//Three numbers deliminated either way,return the sum
+
          assertEquals(6, stringCalculator.add("1,2,3"));
     }
     @Test(expectedExceptions = Exception.class)
     public void negativeInputsReturnException() throws Exception {
-    	//Negative value throw an Exception
-   	 StringCalculator stringCalculator = new StringCalculator();
-      stringCalculator.add("-1");
+         StringCalculator stringCalculator = new StringCalculator();
+       //Negative value throw an Exception
+         stringCalculator.add("-1");
     }
     
     public void ignoresNumbersGreaterThan1000() throws Exception {
-    	//Numbers greater than 1000 are ignored!
     	 StringCalculator stringCalculator = new StringCalculator();
+     	//Numbers greater than 1000 are ignored!
          assertEquals(20, stringCalculator.add("10,10,1001"));
     }
 }
