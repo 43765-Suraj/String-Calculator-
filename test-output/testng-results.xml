@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-16T15:44:57 IST" name="Default suite" finished-at="2021-10-16T15:44:57 IST" duration-ms="104">
+  <suite started-at="2021-10-16T19:50:10 IST" name="Default suite" finished-at="2021-10-16T19:50:10 IST" duration-ms="133">
     <groups>
     </groups>
-    <test started-at="2021-10-16T15:44:57 IST" name="Default test" finished-at="2021-10-16T15:44:57 IST" duration-ms="104">
+    <test started-at="2021-10-16T19:50:10 IST" name="Default test" finished-at="2021-10-16T19:50:10 IST" duration-ms="133">
       <class name="calculator.StringCalculatorShould">
-        <test-method signature="empty_string_should_return_0()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="empty_string_should_return_0" finished-at="2021-10-16T15:44:57 IST" duration-ms="16" status="PASS">
+        <test-method signature="empty_string_should_return_0()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="empty_string_should_return_0" finished-at="2021-10-16T19:50:10 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- empty_string_should_return_0 -->
-        <test-method signature="ignoresNumbersGreaterThan1000()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="ignoresNumbersGreaterThan1000" finished-at="2021-10-16T15:44:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="ignoresNumbersGreaterThan1000()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="ignoresNumbersGreaterThan1000" finished-at="2021-10-16T19:50:10 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ignoresNumbersGreaterThan1000 -->
-        <test-method signature="negativeInputsReturnException()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="negativeInputsReturnException" finished-at="2021-10-16T15:44:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="negativeInputsReturnException()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="negativeInputsReturnException" finished-at="2021-10-16T19:50:10 IST" duration-ms="2" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[negatives not allowed]]>
@@ -25,7 +25,7 @@
 at calculator.StringCalculator.findDengerousInput(StringCalculator.java:35)
 at calculator.StringCalculator.getSum(StringCalculator.java:18)
 at calculator.StringCalculator.add(StringCalculator.java:14)
-at calculator.StringCalculatorShould.negativeInputsReturnException(StringCalculatorShould.java:37)
+at calculator.StringCalculatorShould.negativeInputsReturnException(StringCalculatorShould.java:42)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,19 +60,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeInputsReturnException -->
-        <test-method signature="string_with_single_number_should_return_number_as_int()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="string_with_single_number_should_return_number_as_int" finished-at="2021-10-16T15:44:57 IST" duration-ms="1" status="PASS">
+        <test-method signature="string_with_single_number_should_return_number_as_int()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="string_with_single_number_should_return_number_as_int" finished-at="2021-10-16T19:50:10 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- string_with_single_number_should_return_number_as_int -->
-        <test-method signature="threeNumbersDeliminatedBothWaysReturnSum()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="threeNumbersDeliminatedBothWaysReturnSum" finished-at="2021-10-16T15:44:57 IST" duration-ms="2" status="PASS">
+        <test-method signature="threeNumbersDeliminatedBothWaysReturnSum()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="threeNumbersDeliminatedBothWaysReturnSum" finished-at="2021-10-16T19:50:10 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- threeNumbersDeliminatedBothWaysReturnSum -->
-        <test-method signature="twoNumbersCommaDeliminatedReturnSum()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="twoNumbersCommaDeliminatedReturnSum" finished-at="2021-10-16T15:44:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="twoNumbersCommaDeliminatedReturnSum()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="twoNumbersCommaDeliminatedReturnSum" finished-at="2021-10-16T19:50:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoNumbersCommaDeliminatedReturnSum -->
-        <test-method signature="twoNumbersSeprateLineDeliminatedReturnSum()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T15:44:57 IST" name="twoNumbersSeprateLineDeliminatedReturnSum" finished-at="2021-10-16T15:44:57 IST" duration-ms="1" status="PASS">
+        <test-method signature="twoNumbersSeprateLineDeliminatedReturnSum()[pri:0, instance:calculator.StringCalculatorShould@7b227d8d]" started-at="2021-10-16T19:50:10 IST" name="twoNumbersSeprateLineDeliminatedReturnSum" finished-at="2021-10-16T19:50:10 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoNumbersSeprateLineDeliminatedReturnSum -->
